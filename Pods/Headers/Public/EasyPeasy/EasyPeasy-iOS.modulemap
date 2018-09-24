@@ -1,0 +1,7 @@
+module EasyPeasy [system] {
+  umbrella header "EasyPeasy-iOS-umbrella.h"
+  exclude header "EasyPeasy-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
