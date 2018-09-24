@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_WWECocoaPodsTvOSSupportVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WWECocoaPodsTvOSSupportVersionString[];
+FOUNDATION_EXPORT double Pods_WWECocoaPodsSupport_tvOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WWECocoaPodsSupport_tvOSVersionString[];
 

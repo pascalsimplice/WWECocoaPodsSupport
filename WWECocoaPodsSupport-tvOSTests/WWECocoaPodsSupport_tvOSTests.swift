@@ -1,15 +1,15 @@
 //
-//  WWECocoaPodsIOSSupportTests.swift
-//  WWECocoaPodsIOSSupportTests
+//  WWECocoaPodsSupport_tvOSTests.swift
+//  WWECocoaPodsSupport-tvOSTests
 //
 //  Created by Pascal Simplice on 24/09/2018.
 //  Copyright © 2018 Massive. All rights reserved.
 //
 
 import XCTest
-@testable import WWECocoaPodsIOSSupport
+@testable import WWECocoaPodsSupport_tvOS
 
-class WWECocoaPodsIOSSupportTests: XCTestCase {
+class WWECocoaPodsSupport_tvOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

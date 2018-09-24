@@ -1,0 +1,6 @@
+module Pods_WWECocoaPodsSupport_tvOS [system] {
+  umbrella header "Pods-WWECocoaPodsSupport-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

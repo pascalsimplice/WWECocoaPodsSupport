@@ -1,6 +1,0 @@
-module Pods_WWECocoaPodsIOSSupport [system] {
-  umbrella header "Pods-WWECocoaPodsIOSSupport-umbrella.h"
-
-  export *
-  module * { export * }
-}
