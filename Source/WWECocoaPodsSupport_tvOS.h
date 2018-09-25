@@ -13,6 +13,7 @@ FOUNDATION_EXPORT double WWECocoaPodsSupport_VersionNumber;
 //! Project version string for WWECocoaPodsSupport_tvOS.
 FOUNDATION_EXPORT const unsigned char WWECocoaPodsSupport_VersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <WWECocoaPodsSupport_tvOS/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like
+#import <WWECocoaPodsSupport_tvOS/PublicHeader.h>
 
 
