@@ -10,6 +10,8 @@
 		709AE1473FA333FE7C24B654 /* libPods-WWECocoaPodsSupport tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CDCA20E3D27777A6DEBDBD /* libPods-WWECocoaPodsSupport tvOS.a */; };
 		83E92226914C15988F62BF1B /* libPods-WWECocoaPodsSupport iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */; };
 		C1021E6D215A360D00EAB5CD /* WWECocoaPodsSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C102FEB8215A951000674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C102FEB9215A956600674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEBC215AC2C600674951 /* WWECocoaPodsSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,7 @@
 		C1021E76215A362800EAB5CD /* WWECocoaPodsSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWECocoaPodsSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1021E7F215A369100EAB5CD /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		C1021E80215A369100EAB5CD /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		C102FEB7215A94E200674951 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		CCAE599C266FC39A3887820E /* Pods-WWECocoaPodsSupport iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +95,7 @@
 				C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */,
 				C1021E7F215A369100EAB5CD /* Info-iOS.plist */,
 				C1021E80215A369100EAB5CD /* Info-tvOS.plist */,
+				C102FEB7215A94E200674951 /* PublicHeader.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -104,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1021E6D215A360D00EAB5CD /* WWECocoaPodsSupport.h in Headers */,
+				C102FEB8215A951000674951 /* PublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C102FEBC215AC2C600674951 /* WWECocoaPodsSupport.h in Headers */,
+				C102FEB9215A956600674951 /* PublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
