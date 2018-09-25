@@ -1,11 +1,11 @@
 PODS:
-  - EasyPeasy (1.6.0)
-  - FirebaseAnalytics (4.1.0):
+  - EasyPeasy (1.7.0)
+  - FirebaseAnalytics (4.2.0):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
     - nanopb (~> 0.3)
-  - FirebaseCore (4.0.18):
+  - FirebaseCore (4.0.20):
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseInstanceID (2.0.10):
     - FirebaseCore (~> 4.0)
@@ -15,9 +15,9 @@ PODS:
     - FirebaseAnalytics (~> 4.0)
     - GoogleAnalytics (~> 3.17)
     - GoogleUtilities (~> 1.3)
-  - GoogleToolboxForMac/Defines (2.1.3)
-  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
-    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
   - GoogleUtilities (1.3.2):
     - GoogleSymbolUtilities (~> 1.1)
   - nanopb (0.3.8):
@@ -44,17 +44,17 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
-  EasyPeasy: aef0a77d7e7636d6b5e046194bc911b0a8d73c88
-  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
-  FirebaseCore: b981f47e5254cbcfdeb483355300d743f6fcab2c
+  EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
   FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleTagManager: 07acea48abe73aac17550b81bbf52a37db2d7dd6
-  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 13feb01155526f8ba5b43fec3ce666bb10459aeb
+PODFILE CHECKSUM: aaaecc955b2dd59069f11b7698d1a654b03adb8e
 
 COCOAPODS: 1.5.0
