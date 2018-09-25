@@ -1,0 +1,11 @@
+framework module LzmaSDKObjCAyoupa {
+  umbrella header "LzmaSDKObjCAyoupa.h"
+
+  export *
+  module * { export * }
+}
+
+module LzmaSDKObjCAyoupa.Swift {
+    header "LzmaSDKObjCAyoupa-Swift.h"
+    requires objc
+}

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C1021E75215A362800EAB5CD"
                BuildableName = "WWECocoaPodsSupport.framework"
-               BlueprintName = "WWECocoaPodsSupport tvOS"
+               BlueprintName = "WWECocoaPodsSupport_tvOS"
                ReferencedContainer = "container:WWECocoaPodsSupport.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C1021E75215A362800EAB5CD"
             BuildableName = "WWECocoaPodsSupport.framework"
-            BlueprintName = "WWECocoaPodsSupport tvOS"
+            BlueprintName = "WWECocoaPodsSupport_tvOS"
             ReferencedContainer = "container:WWECocoaPodsSupport.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C1021E75215A362800EAB5CD"
             BuildableName = "WWECocoaPodsSupport.framework"
-            BlueprintName = "WWECocoaPodsSupport tvOS"
+            BlueprintName = "WWECocoaPodsSupport_tvOS"
             ReferencedContainer = "container:WWECocoaPodsSupport.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
