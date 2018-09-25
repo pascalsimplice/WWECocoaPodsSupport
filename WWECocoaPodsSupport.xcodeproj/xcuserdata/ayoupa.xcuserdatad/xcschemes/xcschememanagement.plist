@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WWECocoaPodsSupport iOS.xcscheme</key>
+		<key>WWECocoaPodsSupport-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>0</integer>
 		</dict>
-		<key>WWECocoaPodsSupport tvOS.xcscheme</key>
+		<key>WWECocoaPodsSupport-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
