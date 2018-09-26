@@ -1,4 +1,4 @@
-module Pods_WWECocoaPodsSupport_tvOS [system] {
+framework module Pods_WWECocoaPodsSupport_tvOS {
   umbrella header "Pods-WWECocoaPodsSupport_tvOS-umbrella.h"
 
   export *
