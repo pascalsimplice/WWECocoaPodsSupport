@@ -1,5 +1,4 @@
 PODS:
-  - EasyPeasy (1.6.0)
   - FirebaseAnalytics (4.1.0):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
@@ -27,12 +26,10 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
-  - EasyPeasy
   - GoogleTagManager (= 6.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - EasyPeasy
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseInstanceID
@@ -44,7 +41,6 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
-  EasyPeasy: aef0a77d7e7636d6b5e046194bc911b0a8d73c88
   FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
   FirebaseCore: b981f47e5254cbcfdeb483355300d743f6fcab2c
   FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
@@ -55,6 +51,6 @@ SPEC CHECKSUMS:
   GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 0dd5a64fb0319f175827532f3589c2a21128f59c
+PODFILE CHECKSUM: e0ed52cc628070d75868ca91473abbc2a0344e9f
 
 COCOAPODS: 1.5.0

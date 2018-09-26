@@ -7,7 +7,6 @@
 
 import UIKit
 import GoogleTagManager
-import EasyPeasy
 import FirebaseCore
 
 class TestView: UIView {
