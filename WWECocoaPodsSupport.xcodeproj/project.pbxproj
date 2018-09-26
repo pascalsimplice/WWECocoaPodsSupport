@@ -17,7 +17,6 @@
 		C102FEC3215B7BC800674951 /* TestView-tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102FEC2215B7BC800674951 /* TestView-tvOS.swift */; };
 		C1436926215B9431003302FD /* libPods-WWECocoaPodsSupport_tvOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = 6625BE7FBE6CCAA3A1A40F10 /* libPods-WWECocoaPodsSupport_tvOS.a */; };
 		C1436927215B9438003302FD /* libPods-WWECocoaPodsSupport_iOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = 045BD51ABF60D7E15892CFE3 /* libPods-WWECocoaPodsSupport_iOS.a */; };
-		C1436929215B9868003302FD /* libEasyPeasy-tvOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = C1436928215B9868003302FD /* libEasyPeasy-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +38,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C1436926215B9431003302FD /* libPods-WWECocoaPodsSupport_tvOS.a in Copy Pod framework */,
-				C1436929215B9868003302FD /* libEasyPeasy-tvOS.a in Copy Pod framework */,
 			);
 			name = "Copy Pod framework";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +58,6 @@
 		C102FEB7215A94E200674951 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C102FEBF215B7B7A00674951 /* TestView-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-iOS.swift"; sourceTree = "<group>"; };
 		C102FEC2215B7BC800674951 /* TestView-tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-tvOS.swift"; sourceTree = "<group>"; };
-		C1436928215B9868003302FD /* libEasyPeasy-tvOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libEasyPeasy-tvOS.a"; path = "../../../../Library/Developer/Xcode/DerivedData/WWECocoaPodsSupport-arzvloohbwjwnmdmvnxahjfhuiwg/Build/Products/Debug-appletvsimulator/EasyPeasy-tvOS/libEasyPeasy-tvOS.a"; sourceTree = "<group>"; };
 		CCAE599C266FC39A3887820E /* Pods-WWECocoaPodsSupport iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D343C2900561D32983C4FD56 /* Pods-WWECocoaPodsSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_iOS/Pods-WWECocoaPodsSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +112,6 @@
 		C1021E5B215A35CA00EAB5CD = {
 			isa = PBXGroup;
 			children = (
-				C1436928215B9868003302FD /* libEasyPeasy-tvOS.a */,
 				C1021E7E215A367300EAB5CD /* Source */,
 				C1021E69215A360D00EAB5CD /* Products */,
 				6567E6A112AB662911F643C3 /* Pods */,
@@ -653,6 +649,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwe.network.cocoapods.prod;
 				PRODUCT_NAME = WWECocoaPodsSupport;
 				SDKROOT = appletvos;
