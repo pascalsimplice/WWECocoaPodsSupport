@@ -13,7 +13,23 @@
 		C102FEB8215A951000674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEB9215A956600674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEBC215AC2C600674951 /* WWECocoaPodsSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C102FEBE215B77EB00674951 /* libPods-WWECocoaPodsSupport iOS.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */; };
+		C102FEC0215B7B7A00674951 /* TestView-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102FEBF215B7B7A00674951 /* TestView-iOS.swift */; };
+		C102FEC3215B7BC800674951 /* TestView-tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102FEC2215B7BC800674951 /* TestView-tvOS.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C102FEBD215B77E000674951 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C102FEBE215B77EB00674951 /* libPods-WWECocoaPodsSupport iOS.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3EED867C9CA86A7BBAA3502E /* Pods-WWECocoaPodsSupport tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -26,6 +42,8 @@
 		C1021E7F215A369100EAB5CD /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		C1021E80215A369100EAB5CD /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		C102FEB7215A94E200674951 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		C102FEBF215B7B7A00674951 /* TestView-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-iOS.swift"; sourceTree = "<group>"; };
+		C102FEC2215B7BC800674951 /* TestView-tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-tvOS.swift"; sourceTree = "<group>"; };
 		CCAE599C266FC39A3887820E /* Pods-WWECocoaPodsSupport iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +114,8 @@
 				C1021E7F215A369100EAB5CD /* Info-iOS.plist */,
 				C1021E80215A369100EAB5CD /* Info-tvOS.plist */,
 				C102FEB7215A94E200674951 /* PublicHeader.h */,
+				C102FEBF215B7B7A00674951 /* TestView-iOS.swift */,
+				C102FEC2215B7BC800674951 /* TestView-tvOS.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				C1021E65215A360D00EAB5CD /* Headers */,
 				C1021E66215A360D00EAB5CD /* Resources */,
 				AC60B85E0162F2C0F94C1D0F /* [CP] Copy Pods Resources */,
+				C102FEBD215B77E000674951 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -178,6 +199,7 @@
 					};
 					C1021E75215A362800EAB5CD = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -294,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C102FEC0215B7B7A00674951 /* TestView-iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C102FEC3215B7BC800674951 /* TestView-tvOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

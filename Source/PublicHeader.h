@@ -8,6 +8,4 @@
 #ifndef PublicHeader_h
 #define PublicHeader_h
 
-#import EasyPeasy
-
 #endif /* PublicHeader_h */
