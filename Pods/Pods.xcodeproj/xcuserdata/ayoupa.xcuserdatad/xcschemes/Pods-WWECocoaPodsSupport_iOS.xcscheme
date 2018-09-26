@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "425AF3FBE5B25A880ED603D088EC968C"
-               BlueprintName = "Pods-WWECocoaPodsSupport tvOS"
+               BlueprintIdentifier = "DA70B49F17ACC641B1254C2ED070BC69"
+               BlueprintName = "Pods-WWECocoaPodsSupport_iOS"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-WWECocoaPodsSupport tvOS.a">
+               BuildableName = "libPods-WWECocoaPodsSupport_iOS.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

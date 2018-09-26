@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC2F994390A356389E458B7A6F400078"
+               BlueprintIdentifier = "1D4F70F04CD88AAE6DBAEFFD0AFEBD2E"
                BlueprintName = "EasyPeasy-tvOS"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libEasyPeasy-tvOS.a">

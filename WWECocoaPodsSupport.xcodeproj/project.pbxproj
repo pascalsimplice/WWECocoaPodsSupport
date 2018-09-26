@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		709AE1473FA333FE7C24B654 /* libPods-WWECocoaPodsSupport tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CDCA20E3D27777A6DEBDBD /* libPods-WWECocoaPodsSupport tvOS.a */; };
-		83E92226914C15988F62BF1B /* libPods-WWECocoaPodsSupport iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */; };
+		98092118B3EA26633311663A /* libPods-WWECocoaPodsSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045BD51ABF60D7E15892CFE3 /* libPods-WWECocoaPodsSupport_iOS.a */; };
+		A62328C2F1C6738D863BFEF0 /* libPods-WWECocoaPodsSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6625BE7FBE6CCAA3A1A40F10 /* libPods-WWECocoaPodsSupport_tvOS.a */; };
 		C1021E6D215A360D00EAB5CD /* WWECocoaPodsSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEB8215A951000674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEB9215A956600674951 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C102FEB7215A94E200674951 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C102FEBC215AC2C600674951 /* WWECocoaPodsSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C102FEBE215B77EB00674951 /* libPods-WWECocoaPodsSupport iOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = 570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */; };
 		C102FEC0215B7B7A00674951 /* TestView-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102FEBF215B7B7A00674951 /* TestView-iOS.swift */; };
 		C102FEC3215B7BC800674951 /* TestView-tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102FEC2215B7BC800674951 /* TestView-tvOS.swift */; };
-		C102FEC5215B870A00674951 /* libPods-WWECocoaPodsSupport tvOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = B8CDCA20E3D27777A6DEBDBD /* libPods-WWECocoaPodsSupport tvOS.a */; };
+		C1436926215B9431003302FD /* libPods-WWECocoaPodsSupport_tvOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = 6625BE7FBE6CCAA3A1A40F10 /* libPods-WWECocoaPodsSupport_tvOS.a */; };
+		C1436927215B9438003302FD /* libPods-WWECocoaPodsSupport_iOS.a in Copy Pod framework */ = {isa = PBXBuildFile; fileRef = 045BD51ABF60D7E15892CFE3 /* libPods-WWECocoaPodsSupport_iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C102FEBE215B77EB00674951 /* libPods-WWECocoaPodsSupport iOS.a in Copy Pod framework */,
+				C1436927215B9438003302FD /* libPods-WWECocoaPodsSupport_iOS.a in Copy Pod framework */,
 			);
 			name = "Copy Pod framework";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C102FEC5215B870A00674951 /* libPods-WWECocoaPodsSupport tvOS.a in Copy Pod framework */,
+				C1436926215B9431003302FD /* libPods-WWECocoaPodsSupport_tvOS.a in Copy Pod framework */,
 			);
 			name = "Copy Pod framework";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,10 +45,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		045BD51ABF60D7E15892CFE3 /* libPods-WWECocoaPodsSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWECocoaPodsSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116C3FCEDA79B5F7EC641213 /* Pods-WWECocoaPodsSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_tvOS/Pods-WWECocoaPodsSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		3EED867C9CA86A7BBAA3502E /* Pods-WWECocoaPodsSupport tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWECocoaPodsSupport iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6625BE7FBE6CCAA3A1A40F10 /* libPods-WWECocoaPodsSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWECocoaPodsSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF062953D957E7CFEE361DA /* Pods-WWECocoaPodsSupport iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.release.xcconfig"; sourceTree = "<group>"; };
-		B8CDCA20E3D27777A6DEBDBD /* libPods-WWECocoaPodsSupport tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWECocoaPodsSupport tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWECocoaPodsSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWECocoaPodsSupport.h; sourceTree = "<group>"; };
 		C1021E76215A362800EAB5CD /* WWECocoaPodsSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWECocoaPodsSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +59,10 @@
 		C102FEBF215B7B7A00674951 /* TestView-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-iOS.swift"; sourceTree = "<group>"; };
 		C102FEC2215B7BC800674951 /* TestView-tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-tvOS.swift"; sourceTree = "<group>"; };
 		CCAE599C266FC39A3887820E /* Pods-WWECocoaPodsSupport iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D343C2900561D32983C4FD56 /* Pods-WWECocoaPodsSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_iOS/Pods-WWECocoaPodsSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E011D13D6767CB6FB9F806F4 /* Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_tvOS/Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F0A20A5957078591EEFCF13A /* Pods-WWECocoaPodsSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_iOS/Pods-WWECocoaPodsSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E92226914C15988F62BF1B /* libPods-WWECocoaPodsSupport iOS.a in Frameworks */,
+				98092118B3EA26633311663A /* libPods-WWECocoaPodsSupport_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709AE1473FA333FE7C24B654 /* libPods-WWECocoaPodsSupport tvOS.a in Frameworks */,
+				A62328C2F1C6738D863BFEF0 /* libPods-WWECocoaPodsSupport_tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +88,8 @@
 		5E3DBA8166F7C94B60D4EA12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				570702AEDFE730AE8FDCE0AA /* libPods-WWECocoaPodsSupport iOS.a */,
-				B8CDCA20E3D27777A6DEBDBD /* libPods-WWECocoaPodsSupport tvOS.a */,
+				045BD51ABF60D7E15892CFE3 /* libPods-WWECocoaPodsSupport_iOS.a */,
+				6625BE7FBE6CCAA3A1A40F10 /* libPods-WWECocoaPodsSupport_tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +101,10 @@
 				9EF062953D957E7CFEE361DA /* Pods-WWECocoaPodsSupport iOS.release.xcconfig */,
 				3EED867C9CA86A7BBAA3502E /* Pods-WWECocoaPodsSupport tvOS.debug.xcconfig */,
 				DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */,
+				D343C2900561D32983C4FD56 /* Pods-WWECocoaPodsSupport_iOS.debug.xcconfig */,
+				F0A20A5957078591EEFCF13A /* Pods-WWECocoaPodsSupport_iOS.release.xcconfig */,
+				E011D13D6767CB6FB9F806F4 /* Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig */,
+				116C3FCEDA79B5F7EC641213 /* Pods-WWECocoaPodsSupport_tvOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -187,7 +195,6 @@
 				C1021E72215A362800EAB5CD /* Frameworks */,
 				C1021E73215A362800EAB5CD /* Headers */,
 				C1021E74215A362800EAB5CD /* Resources */,
-				C102FEBB215AAEFF00674951 /* [CP] Copy Pods Resources */,
 				C102FEC4215B86E300674951 /* Copy Pod framework */,
 			);
 			buildRules = (
@@ -264,7 +271,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WWECocoaPodsSupport tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WWECocoaPodsSupport_tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -277,7 +284,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport_iOS/Pods-WWECocoaPodsSupport_iOS-resources.sh",
 				"${PODS_ROOT}/GoogleTagManager/Frameworks/frameworks/GoogleTagManager.framework/Resources/TagManagerResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -286,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport_iOS/Pods-WWECocoaPodsSupport_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFE3CEFFAF67CC958005524F /* [CP] Check Pods Manifest.lock */ = {
@@ -300,27 +307,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WWECocoaPodsSupport iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WWECocoaPodsSupport_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C102FEBB215AAEFF00674951 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS-resources.sh",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWECocoaPodsSupport tvOS/Pods-WWECocoaPodsSupport tvOS-resources.sh\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -359,7 +350,7 @@
 		};
 		C1021E6F215A360D00EAB5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCAE599C266FC39A3887820E /* Pods-WWECocoaPodsSupport iOS.debug.xcconfig */;
+			baseConfigurationReference = D343C2900561D32983C4FD56 /* Pods-WWECocoaPodsSupport_iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -441,7 +432,7 @@
 		};
 		C1021E70215A360D00EAB5CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EF062953D957E7CFEE361DA /* Pods-WWECocoaPodsSupport iOS.release.xcconfig */;
+			baseConfigurationReference = F0A20A5957078591EEFCF13A /* Pods-WWECocoaPodsSupport_iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -517,7 +508,7 @@
 		};
 		C1021E7C215A362800EAB5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EED867C9CA86A7BBAA3502E /* Pods-WWECocoaPodsSupport tvOS.debug.xcconfig */;
+			baseConfigurationReference = E011D13D6767CB6FB9F806F4 /* Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -599,7 +590,7 @@
 		};
 		C1021E7D215A362800EAB5CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC4860C16B1E1E81852D4330 /* Pods-WWECocoaPodsSupport tvOS.release.xcconfig */;
+			baseConfigurationReference = 116C3FCEDA79B5F7EC641213 /* Pods-WWECocoaPodsSupport_tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
