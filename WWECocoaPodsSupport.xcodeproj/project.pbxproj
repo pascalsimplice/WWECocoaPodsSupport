@@ -24,7 +24,7 @@
 		9EF062953D957E7CFEE361DA /* Pods-WWECocoaPodsSupport iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport iOS/Pods-WWECocoaPodsSupport iOS.release.xcconfig"; sourceTree = "<group>"; };
 		B3B10DC39C199E1562086DFB /* Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWECocoaPodsSupport_tvOS/Pods-WWECocoaPodsSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C01BFDC612582A11783564AA /* libPods-WWECocoaPodsSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWECocoaPodsSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWECocoaPodsSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWECocoaPodsSupport_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1021E6B215A360D00EAB5CD /* WWECocoaPodsSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWECocoaPodsSupport.h; sourceTree = "<group>"; };
 		C1021E7F215A369100EAB5CD /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		C102FEBF215B7B7A00674951 /* TestView-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView-iOS.swift"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		C1021E69215A360D00EAB5CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport.framework */,
+				C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport_iOS.framework */,
 				C1293EB223B2305F0059721F /* WWECocoaPodsSupport_tvOS.framework */,
 			);
 			name = Products;
@@ -160,7 +160,7 @@
 			);
 			name = WWECocoaPodsSupport_iOS;
 			productName = "WWECocoaPodsSupport iOS";
-			productReference = C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport.framework */;
+			productReference = C1021E68215A360D00EAB5CD /* WWECocoaPodsSupport_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C1293EB123B2305F0059721F /* WWECocoaPodsSupport_tvOS */ = {
@@ -417,7 +417,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwe.network.cocoapods.prod;
-				PRODUCT_NAME = WWECocoaPodsSupport;
+				PRODUCT_NAME = WWECocoaPodsSupport_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -492,7 +492,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwe.network.cocoapods.prod;
-				PRODUCT_NAME = WWECocoaPodsSupport;
+				PRODUCT_NAME = WWECocoaPodsSupport_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
