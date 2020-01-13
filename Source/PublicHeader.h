@@ -8,6 +8,7 @@
 #ifndef PublicHeader_h
 #define PublicHeader_h
 
-#import <FirebaseCore/FirebaseCore.h>
 #import <GoogleTagManager/GoogleTagManager.h>
+#import <FirebaseAnalytics/FirebaseAnalytics.h>
+#import <FirebaseCore/FirebaseCore.h>
 #endif /* PublicHeader_h */
