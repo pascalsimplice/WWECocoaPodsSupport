@@ -9,5 +9,5 @@
 #define PublicHeader_h
 
 #import <FirebaseCore/FirebaseCore.h>
-
+#import <GoogleTagManager/GoogleTagManager.h>
 #endif /* PublicHeader_h */
